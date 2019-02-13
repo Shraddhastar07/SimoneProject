@@ -26,7 +26,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.78796214788732399" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Tpd-Ed-nNA" firstAttribute="centerX" secondItem="SDT-R9-uLI" secondAttribute="centerX" id="h4v-yp-9Td"/>
                             <constraint firstItem="Tpd-Ed-nNA" firstAttribute="centerY" secondItem="SDT-R9-uLI" secondAttribute="centerY" id="xdi-dw-Jbs"/>

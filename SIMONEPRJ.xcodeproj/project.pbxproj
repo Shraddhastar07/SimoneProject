@@ -16,6 +16,7 @@
 		2B4EA29922142C17006033E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4EA29822142C17006033E5 /* main.m */; };
 		2B4EA2A322142C17006033E5 /* SIMONEPRJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4EA2A222142C17006033E5 /* SIMONEPRJTests.m */; };
 		2B4EA2AE22142C17006033E5 /* SIMONEPRJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4EA2AD22142C17006033E5 /* SIMONEPRJUITests.m */; };
+		2BF7296922142F45001C104C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7296822142F45001C104C /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2B4EA2A922142C17006033E5 /* SIMONEPRJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIMONEPRJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4EA2AD22142C17006033E5 /* SIMONEPRJUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIMONEPRJUITests.m; sourceTree = "<group>"; };
 		2B4EA2AF22142C17006033E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF7296722142F45001C104C /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2BF7296822142F45001C104C /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				2B4EA29722142C17006033E5 /* Info.plist */,
 				2B4EA29822142C17006033E5 /* main.m */,
 				2B4EA28F22142C16006033E5 /* SIMONEPRJ.xcdatamodeld */,
+				2BF7296722142F45001C104C /* HomeViewController.h */,
+				2BF7296822142F45001C104C /* HomeViewController.m */,
 			);
 			path = SIMONEPRJ;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 				2B4EA28B22142C16006033E5 /* ViewController.m in Sources */,
 				2B4EA29122142C16006033E5 /* SIMONEPRJ.xcdatamodeld in Sources */,
 				2B4EA29922142C17006033E5 /* main.m in Sources */,
+				2BF7296922142F45001C104C /* HomeViewController.m in Sources */,
 				2B4EA28822142C16006033E5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

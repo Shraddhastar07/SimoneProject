@@ -11,6 +11,34 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="M4f-7A-r4W">
+            <objects>
+                <viewController id="d9n-fV-roG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SDT-R9-uLI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo1234" translatesAutoresizingMaskIntoConstraints="NO" id="Tpd-Ed-nNA">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="gt0-wD-lnQ"/>
+                                    <constraint firstAttribute="height" constant="200" id="uCi-v5-vBW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Tpd-Ed-nNA" firstAttribute="centerX" secondItem="SDT-R9-uLI" secondAttribute="centerX" id="h4v-yp-9Td"/>
+                            <constraint firstItem="Tpd-Ed-nNA" firstAttribute="centerY" secondItem="SDT-R9-uLI" secondAttribute="centerY" id="xdi-dw-Jbs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WUU-QG-uPb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jVU-gR-NwB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-452" y="50"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -40,12 +68,28 @@
                                     <segue destination="2NL-ri-ACo" kind="show" id="tiH-RP-PI6"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28G-QF-Kdm">
+                                <rect key="frame" x="112.5" y="258.5" width="150" height="40"/>
+                                <color key="backgroundColor" red="0.51777068660000003" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="BGa-hd-5N1"/>
+                                    <constraint firstAttribute="width" constant="150" id="wNO-aI-k5x"/>
+                                </constraints>
+                                <state key="normal" title="GJEPC">
+                                    <color key="titleColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="d9n-fV-roG" kind="show" id="J6C-DC-iYX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.95394169849999999" blue="0.12844527780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="28G-QF-Kdm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FFr-Oh-DIF"/>
                             <constraint firstItem="vNL-Hj-ugI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IUE-KB-wNy"/>
                             <constraint firstItem="n0y-Ac-APN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VFS-KZ-M9s"/>
                             <constraint firstItem="n0y-Ac-APN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bCo-R0-TC4"/>
+                            <constraint firstItem="n0y-Ac-APN" firstAttribute="top" secondItem="28G-QF-Kdm" secondAttribute="bottom" constant="10" id="sxe-EW-r2G"/>
                             <constraint firstItem="vNL-Hj-ugI" firstAttribute="top" secondItem="n0y-Ac-APN" secondAttribute="bottom" constant="20" id="tSF-nk-V6x"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -88,4 +132,7 @@
             <point key="canvasLocation" x="834" y="50"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo1234" width="577" height="305"/>
+    </resources>
 </document>
